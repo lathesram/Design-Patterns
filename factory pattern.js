@@ -25,8 +25,8 @@ class VehicleFactory {
 }
 
 const vehicleFactory = new VehicleFactory();
-const car = vehicleFactory.createVehicle('car');
+const car = vehicleFactory.createVehicle("car");
 console.log(car);
 
-const bike = vehicleFactory.createVehicle('bike');
+const bike = vehicleFactory.createVehicle("bike");
 console.log(bike);
